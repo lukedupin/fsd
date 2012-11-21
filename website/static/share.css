@@ -55,6 +55,25 @@
   float: left;
 }
 
+.header_nav_container_item a:link     { color: #f5463d; text-decoration:none; }
+.header_nav_container_item a:visited  { color: #f5463d; text-decoration:none; }
+.header_nav_container_item a:hover    { color: #ff6d66; text-decoration:none; }
+.header_nav_container_item a:active   { color: #ff6d66; text-decoration:none; }
+
+.header_nav_container_current_item {
+  border-left: solid 2px #00f3b5;
+  color: #00f3b5;
+  padding-left: 8px;
+  height: 37px;
+  width: 70px;
+  float: left;
+}
+
+.header_nav_container_current_item a:link     { color: #f5463d; text-decoration:none; }
+.header_nav_container_current_item a:visited  { color: #f5463d; text-decoration:none; }
+.header_nav_container_current_item a:hover    { color: #ff6d66; text-decoration:none; }
+.header_nav_container_current_item a:active   { color: #ff6d66; text-decoration:none; }
+
 .header_nav_number {
   font-family: ExoRegular, verdana, helvetica, sans-serif;  
   font-size: 12px;

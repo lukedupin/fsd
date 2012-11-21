@@ -1,3 +1,5 @@
 {% extends 'layout/base.dhtml' %}
 
 {% block title %}Fluid software designs - Home{% endblock %}
+
+{%block home_link%}header_nav_container_current_item{%endblock%}
