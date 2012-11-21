@@ -1,0 +1,26 @@
+.work_main_page {
+/*
+  background:url("images/FSD_Home.png"); 
+  height: 1438;
+*/
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.work_lead_msg {
+  background:url("images/title_Work.jpg"); 
+  height: 190px;
+  top: -40px;
+  z-index: 3;
+  position: relative;
+}
+
+.work_lead_msg_shadow {
+  background:url("images/bg_Content_TopGradient.gif");
+  height: 130px;
+  width: 1200px;
+  margin-top: -40px;
+  position: static;
+}

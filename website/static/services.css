@@ -1,0 +1,128 @@
+.services_main_page {
+/*
+  background:url("images/FSD_Home.png"); 
+  height: 1438;
+*/
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.services_lead_msg {
+  background:url("images/title_Services.jpg"); 
+  height: 190px;
+  top: -40px;
+  z-index: 3;
+  position: relative;
+}
+
+.services_lead_msg_shadow {
+  background:url("images/bg_Content_TopGradient.gif");
+  height: 130px;
+  width: 1200px;
+  margin-top: -40px;
+  position: static;
+}
+
+.services_desc_container {
+  background:url("images/bg_ContentHead_Swoosh.jpg");
+  height: 190px;
+  width: 817px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.services_desc_title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.services_desc_content {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.services_tech_container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.services_tech_container_left {
+  width: 300px;
+  float: left;
+}
+
+.services_tech_container_right {
+  width: 300px;
+  float: right;
+}
+
+.services_tech_icon_usb {
+  background:url("images/icon_USB.jpg") no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.services_tech_icon_ethernet {
+  background:url("images/icon_Ethernet.jpg") no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.services_tech_icon_arm {
+  background:url("images/icon_ARM.jpg") no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.services_tech_icon_linux {
+  background:url("images/icon_Linux.png") no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+
+.services_tech_title {
+}
+
+.services_tech_desc {
+}
+
+.services_hub {
+  background:url("images/bg_Content_Hub.gif") no-repeat;
+  width: 228px;
+  height: 228px;
+  position: absolute;
+}
+
+.services_method_container {
+  width: 800px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.services_method_title {
+  position: relative;
+}
+
+.services_method_desc {
+  position: relative;
+}
+
+.services_method_consultation {
+  background:url("images/btn_CTA_Consultation.png");
+  height: 48px;
+  width: 240px;
+  position: relative;
+}

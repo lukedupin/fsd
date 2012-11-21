@@ -1,0 +1,3 @@
+{% extends 'layout/base.dhtml' %}
+
+{% block title %}Fluid software designs - Home{% endblock %}

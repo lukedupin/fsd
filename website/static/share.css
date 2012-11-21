@@ -1,0 +1,142 @@
+.body {
+  background-color: #edfffa;
+  margin-top: 0px;
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+}
+
+.header_left {
+  background:url("images/bg_Header_Bar.png") repeat; 
+  height: 140px;
+  width: 130px;
+  z-index: 4;
+  position: relative;
+  float: left;
+}
+
+.header_angle {
+  background:url("images/bg_Header_Bar_Angle.png"); 
+  width: 300px;
+  height: 170px;
+  z-index: 4;
+  position: relative;
+  float: left;
+}
+
+.header_logo {
+  background:url("images/Logo_FluidSoftwareDesigns.png");
+  width: 240px;
+  height: 111px;
+  margin-top: 30px;
+  margin-left: 20px;
+  z-index: 4;
+  position: relative;
+}
+
+.header_right {
+  background:url("images/bg_Header_Bar.png") repeat; 
+  height: 140px;
+  width: 770px; 
+  z-index: 4;
+  position: relative;
+  float: left;
+}
+
+.header_nav_container {
+  margin-top: 73px;
+  margin-left: 170px;
+}
+
+.header_nav_container_item {
+  border-left: solid 2px #f5463d;
+  color: #f5463d;
+  padding-left: 8px;
+  height: 37px;
+  width: 70px;
+  float: left;
+}
+
+.header_nav_number {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 12px;
+  margin-top: 7px;
+}
+
+.header_nav_text {
+  font-family: ExoDemiBold, verdana, helvetica, sans-serif;  
+  font-size: 14px;
+}
+
+.footer_swish {
+  background:url("images/bg_Content_Swoosh.png");
+  margin-left: 119px;
+  margin-top: -595px;
+  margin-bottom: -80px;
+  height: 595px;
+  width: 190px;
+  position: relative;
+  z-index: 2;
+}
+
+.footer_shadow {
+  background:url("images/bg_Content_BotGradient.gif");
+  height: 80px;
+  width: 1200px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer_left {
+  background-color: #121b4a; 
+  border-top: solid 1px #a0a4b7;
+  border-bottom: solid 1px #a0a4b7;
+  height: 151px;
+  width: 480px;
+  position: static;
+  float:left;
+}
+
+.footer_logo {
+  background:url("images/Logo2_FluidSoftwareDesigns.png");
+  margin-top: 60px;
+  margin-left: 130px;
+  width: 300px;
+  height: 30px;
+}
+
+.footer_copyright {
+  font-family: ExoLight, verdana, helvetica, sans-serif;  
+  font-size: 11px;
+  color: #139d98;
+  margin-top: 5px;
+  margin-left: 157px;
+}
+
+.footer_right {
+  background:url("images/bg_Footer_Gradient.gif");
+  background-color: #121b4a;
+  border-top: solid 1px #657e99;
+  border-bottom: solid 1px #657e99;
+  background-repeat: repeat-y;
+  height: 151px;
+  width: 720px;
+  position: static;
+  float:left;
+}
+
+.footer_text {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 18px;
+  color: #00f3b5;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.footer_text_item {
+  margin-right: 9px;
+  float: left;
+}
+
+.footer_text_item a:link    { color: #00f3b5;  text-decoration:none; }
+.footer_text_item a:visited { color: #00f3b5;  text-decoration:none; }
+.footer_text_item a:hover   { color: #f5463d;  text-decoration:none; }
+.footer_text_item a:active  { color: #f5463d;  text-decoration:none; }

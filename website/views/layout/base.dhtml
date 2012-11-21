@@ -1,0 +1,141 @@
+<HTML>
+<meta charset="iso-8859-1">
+<HEAD>
+<link rel="stylesheet" type="text/css" href="/static/share.css" />
+<link rel="stylesheet" type="text/css" href="/static/home.css" />
+<link rel="stylesheet" type="text/css" href="/static/font/stylesheet.css" />
+</HEAD>
+<BODY class="body">
+  <div class="home_main_page">
+    <div class="header">
+      <div class="header_left">
+      </div>
+      <div class="header_angle">
+        <div class="header_logo"></div>
+      </div>
+
+      <div class="header_right">
+        <div class="header_nav_container">
+          <div class="header_nav_container_item">
+            <a href="/" style="text-decoration:none;">
+              <div class="header_nav_number">01</div>
+              <div class="header_nav_text">Home</div>
+            </a>
+          </div>
+        </div>
+        <div class="header_nav_container">
+          <div class="header_nav_container_item">
+            <a href="/services.html" style="text-decoration:none;">
+              <div class="header_nav_number">02</div>
+              <div class="header_nav_text">Services</div>
+            </a>
+          </div>
+        </div>
+        <div class="header_nav_container">
+          <div class="header_nav_container_item">
+            <div class="header_nav_number">03</div>
+            <div class="header_nav_text">Work</div>
+          </div>
+        </div>
+        <div class="header_nav_container">
+          <div class="header_nav_container_item">
+            <div class="header_nav_number">04</div>
+            <div class="header_nav_text">Ethos</div>
+          </div>
+        </div>
+        <div class="header_nav_container">
+          <div class="header_nav_container_item">
+            <div class="header_nav_number">05</div>
+            <div class="header_nav_text">Contact</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+
+    <div class="home_lead_msg">
+      <div class="home_lead_msg_header">complex systems made simple.</div>
+      <div class="home_lead_msg_text">CUSTOMIZED, FLEXIBLE SOFTWARE FOR YOUR NEXT PROJECT.</div>
+      <div class="home_lead_consultation"></div>
+    </div>
+    <div class="home_lead_msg_shadow">
+    </div>
+
+    <div class="home_main_content_upper_left">
+      <div class="home_main_upper_left_icon"></div>
+      <div class="home_main_content_item">
+        <div class="home_main_content_header">services</div>
+        <div class="home_main_content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec condimentum</div>
+        <div class="home_main_content_link">
+          <a href="/services">
+            <div class="home_main_content_link_text">VIEW OUR SERVICES</div>
+            <div class="home_main_content_link_image"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="home_main_content_upper_right">
+      <div class="home_main_upper_right_icon"></div>
+      <div class="home_main_content_item">
+        <div class="home_main_content_header">ethos</div>
+        <div class="home_main_content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec condimentum</div>
+        <div class="home_main_content_link">
+          <a href="/ethos">
+            <div class="home_main_content_link_text">LEARN MORE</div>
+            <div class="home_main_content_link_image"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+
+    <div class="home_main_content_lower_left">
+      <div class="home_main_lower_left_icon"></div>
+      <div class="home_main_content_item">
+        <div class="home_main_content_header">technologies we support</div>
+        <div class="home_main_content_text">
+          <ul>
+            <li>one</li>
+            <li>two</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="home_main_content_lower_right">
+      <div class="home_main_lower_right_icon"></div>
+      <div class="home_main_content_item">
+        <div class="home_main_content_header">past projects</div>
+        <div class="home_main_content_text">stuff stuff stuff</div>
+        <div class="home_main_content_link">
+          <a href="/ethos"><div class="home_main_content_link_text">VIEW PAST PROJECTS</div><div class="home_main_content_link_image"></div></a>
+        </div>
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+
+    <div>
+      <div class="footer_swish"></div>
+      <div class="footer_shadow"></div>
+    </div>
+
+    <div class="footer_left">
+      <div class="footer_logo"></div>
+      <div class="footer_copyright">Copyright 2012</div>
+    </div>
+    <div class="footer_right">
+      <div class="footer_text">
+        <div class="footer_text_item"><a href="index.html">Home</a></div>
+        <div class="footer_text_item">//</div>
+        <div class="footer_text_item"><a href="services.html">Services</a></div>
+        <div class="footer_text_item">//</div>
+        <div class="footer_text_item"><a href="/work.html">Work</a></div>
+        <div class="footer_text_item">//</div>
+        <div class="footer_text_item"><a href="/ethos.html">Ethos</a></div>
+        <div class="footer_text_item">//</div>
+        <div class="footer_text_item"><a href="/contact.html">Contact</a></div>
+      </div>
+    </div>
+  </div>
+</BODY>
+</HTML>
