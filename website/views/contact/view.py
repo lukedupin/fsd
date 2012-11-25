@@ -10,7 +10,6 @@ class ContactForm(forms.Form):
   phone_number = forms.CharField(max_length=100,required=False)
   subject = forms.CharField(max_length=100,required=False)
   message = forms.CharField(widget=forms.Textarea,required=False)
-  cc_myself = forms.BooleanField(required=False)
 
 class Contact(TemplateView):
   template_get = "contact/index.dhtml"

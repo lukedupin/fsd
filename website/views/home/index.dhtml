@@ -14,7 +14,7 @@
     <div class="home_lead_msg">
       <div class="home_lead_msg_header">complex systems made simple.</div>
       <div class="home_lead_msg_text">CUSTOMIZED, FLEXIBLE SOFTWARE FOR YOUR NEXT PROJECT.</div>
-      <div class="home_lead_consultation"></div>
+      <a href="/contact"><div class="home_lead_consultation"></div></a>
     </div>
     <div class="home_lead_msg_shadow">
     </div>

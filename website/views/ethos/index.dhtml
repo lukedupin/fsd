@@ -26,13 +26,13 @@
       <div class="ethos_main_content_desc">Description!</div>
     </div>
 
-    <div class="ethos_main_siderail">
-      <div class="ethos_main_siderail_image"></div>
-      <div class="ethos_main_siderail_body">
-        <div class="ethos_main_siderail_text_area">
-          <div class="ethos_main_siderail_text">text</div>
+    <div class="siderail">
+      <div class="siderail_image"></div>
+      <div class="siderail_body">
+        <div class="siderail_text_area">
+          <div class="siderail_text">text</div>
         </div>
-        <div class="ethos_main_siderail_title">Siderail title</div>
+        <div class="siderail_title">Siderail title</div>
       </div>
     </div>
     <div style="clear: both;"></div>

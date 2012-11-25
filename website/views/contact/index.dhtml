@@ -16,13 +16,54 @@
 {%endblock%}
 
 {%block body%}
-<form action="/contact/" method="post">
-  <div class="contact_form">
-  {% csrf_token %}
-  {{ form.as_p }}
-  <input class="contact_submit" type="submit" value="Send message" />
-  </div>
-</form>
+    <div class="contact_main_content">
+      <div class="contact_info_container">
+        <div class="contact_info_header">Contact Details</div>
+        <div class="contact_info_text">
+          <div class="contact_info_label">Phone</div>
+          <div class="contact_info_item">208.918.1917</div>
+          <div style="clear:both;"></div>
+
+          <div class="contact_info_label">Email</div>
+          <div class="contact_info_item">info@fsdllc.us</div>
+          <div style="clear:both;"></div>
+
+          <div class="contact_info_label">&nbsp;</div>
+          <div style="clear:both;"></div>
+          <div class="contact_info_label">Address</div>
+          <div class="contact_info_item">Fluid Software Designs</div>
+          <div style="clear:both;"></div>
+          <div class="contact_info_label">&nbsp;</div>
+          <div class="contact_info_item">1044 Terra DR.</div>
+          <div style="clear:both;"></div>
+          <div class="contact_info_label">&nbsp;</div>
+          <div class="contact_info_item">Moscow, ID 83843</div>
+          <div style="clear:both;"></div>
+        </div>
+      </div>
+
+      <div class="contact_form_container">
+        <div class="contact_info_header">Questions and Comments</div>
+        <form action="/contact/" method="post">
+          <div class="contact_form">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <input class="contact_submit" type="submit" value="Send message" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="siderail">
+      <div class="siderail_image"></div>
+      <div class="siderail_body">
+        <div class="siderail_text_area">
+          <div class="siderail_text">text</div>
+        </div>
+        <div class="siderail_title">Siderail title</div>
+      </div>
+    </div>
+    <div style="clear: both;"></div>
 {%endblock%}
 
 {% block footer %}

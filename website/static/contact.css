@@ -10,40 +10,11 @@
 }
 
 .contact_lead_msg {
-  background:url("images/title_Home.jpg"); 
-  height: 422px;
+  background:url("images/title_Contact.jpg"); 
+  height: 190px;
   top: -40px;
   z-index: 3;
   position: relative;
-}
-
-.contact_lead_msg_header {
-  font-family: ExoLight, verdana, helvetica, sans-serif;  
-  font-size: 74px;
-  color: #0b436b;
-  width: 600px;
-  height: 160px;
-  margin-left: 130px;
-  padding-top: 85px;
-  position: static;
-}
-
-.contact_lead_msg_text {
-  font-family: ExoExtraBold, verdana, helvetica, sans-serif;  
-  font-size: 18px;
-  color: #009996;
-  margin-top: 42px;
-  margin-left: 130px;
-  position: static;
-}
-
-.contact_lead_consultation {
-  background:url("images/btn_CTA_Consultation.png");
-  height: 48px;
-  width: 240px;
-  margin-top: 37px;
-  margin-left: 130px;
-  position: static;
 }
 
 .contact_lead_msg_shadow {
@@ -54,118 +25,70 @@
   position: static;
 }
 
-.contact_main_content_upper_left {
-  margin-left: 120px;
-  margin-top:  3px;
-  width: 500px;
-  height: 285px;
+.contact_main_content {
+  width: 800px;
+  position: relative;
   float: left;
 }
 
-.contact_main_content_upper_right {
-  margin-left: 60px;
-  margin-top:  3px;
-  height: 285px;
-  width: 500px;
-  float: left;
-}
-
-.contact_main_content_lower_left {
-  margin-left: 120px;
-  margin-top:  3px;
-  width: 500px;
-  height: 313px;
-  float: left;
-}
-
-.contact_main_content_lower_right {
-  margin-left: 60px;
-  margin-top:  3px;
-  width: 500px;
-  height: 313px;
-  float: left;
-}
-
-.contact_main_content_item {
-  float: left;
-}
-
-.contact_main_content_header {
+.contact_form_container {
+  position: relative;
   font-family: ExoRegular, verdana, helvetica, sans-serif;  
-  font-size: 36px;
-  color: #009996;
-  margin-top: 40px;
-  margin-left: 18px;
+  font-size: 16px;
+  margin-left: 140px;
+  z-index: 4;
 }
 
-.contact_main_content_text {
-  font-family: ExoRegular, verdana, helvetica, sans-serif;  
-  font-size: 14px;
-  line-height: 23px;
-  color: #0b436b;
-  width: 400px;
-  margin-top: 15px;
-  margin-left: 20px;
-}
-
-.contact_main_content_link {
-  font-family: ExoBold, verdana, helvetica, sans-serif;  
-  margin-top: 50px;
-}
-
-.contact_main_content_link a {
-  text-decoration:none; 
-}
-
-.contact_main_content_link_text {
-  float: left;
-  color: #f5463d;
-  margin-left: 18px;
-}
-
-.contact_main_content_link_image {
-  background:url("images/btn_CTA_Arrow_Orange.png");
-  margin-top: 2px;
-  margin-left: 12px;
-  width: 7px;
-  height: 12px;
-  float: left;
-}
-
-.contact_main_upper_left_icon {
-  background:url("images/icon_Services.png");
-  height: 108px;
-  width: 70px;
-  float: left;
-}
-
-.contact_main_upper_right_icon {
-  background:url("images/icon_Ethos.png");
-  height: 108px;
-  width: 70px;
-  float: left;
-}
-
-.contact_main_lower_left_icon {
-  background:url("images/icon_Technologies.png");
-  height: 108px;
-  width: 70px;
-  float: left;
-}
-
-.contact_main_lower_right_icon {
-  background:url("images/icon_Projects.png");
-  height: 108px;
-  width: 70px;
-  float: left;
+.contact_form_container form {
+  margin-left: 40px;
 }
 
 .contact_form p label {
   display: inline-block;
   vertical-align: top;
   width: 130px;
+
+  color: #0b436b;
 }
 
 .contact_form p input {
   width: 300px;
+}
+
+.contact_submit {
+  margin-left: 130px;
+}
+
+.contact_info_container {
+  margin-left: 140px;
+  margin-top:  -60px;
+}
+
+.contact_info_header {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 36px;
+  color: #009996;
+  margin-top: 40px;
+  margin-left: 0px;
+}
+
+.contact_info_text {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 16px;
+  line-height: 23px;
+  color: #0b436b;
+  width: 400px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.contact_info_label {
+  font-family: ExoBold, verdana, helvetica, sans-serif;  
+  font-size: 16px;
+  float: left;
+  width: 100px;
+}
+
+.contact_info_item {
+  float: left;
 }
