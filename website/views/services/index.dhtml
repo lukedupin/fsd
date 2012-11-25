@@ -1,0 +1,78 @@
+{% extends 'layout/base.dhtml' %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="/static/services.css" />
+{% endblock %}
+
+{% block title %}Fluid software designs - Services{% endblock %}
+
+{%block main_page%}services_main_page{%endblock%}
+
+{%block services_link%}header_nav_container_current_item{%endblock%}
+
+{% block header %}
+    <div class="services_lead_msg"></div>
+    <div class="services_lead_msg_shadow"></div>
+    <div class="services_desc_container">
+      <div class="services_desc_title">result-driven, custom software.</div>
+      <div class="services_desc_content">Something about result driven software</div>
+    </div>
+{% endblock %}
+
+{%block body%}
+    <div class="services_tech_container">
+      <div class="services_tech_container_left">
+        <div class="services_tech_icon_usb"></div>
+        <div class="services_tech_title">USB</div>
+        <div class="services_tech_desc">Usb Work</div>
+      </div>
+
+      <div class="services_tech_container_right">
+        <div class="services_tech_icon_ethernet"></div>
+        <div class="services_tech_title">Ethernet</div>
+        <div class="services_tech_desc">Usb Work</div>
+      </div>
+      <div style="clear: both;"></div>
+
+      <div class="services_tech_container_left">
+        <div class="services_tech_icon_arm"></div>
+        <div class="services_tech_title">ARM</div>
+        <div class="services_tech_desc">Arm</div>
+      </div>
+
+      <div class="services_tech_container_right">
+        <div class="services_tech_icon_linux"></div>
+        <div class="services_tech_title">Linux</div>
+        <div class="services_tech_desc">Linux</div>
+      </div>
+      <div style="clear: both;"></div>
+
+      <div class="services_tech_container_left">
+        <div class="services_tech_icon_android"></div>
+        <div class="services_tech_title">Android</div>
+        <div class="services_tech_desc">Phones</div>
+      </div>
+
+      <div class="services_tech_container_right">
+        <div class="services_tech_icon_qt"></div>
+        <div class="services_tech_title">Qt</div>
+        <div class="services_tech_desc">Qt is great</div>
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="services_hub"></div>
+    <div class="services_method_container">
+      <div class="services_method_title">our approach</div>
+      <div class="services_method_desc">
+Here is our approach
+        <div class="services_method_consultation"></div>
+      </div>
+    </div>
+{% endblock %}
+
+{%block footer%}
+    <div>
+      <div class="footer_shadow"></div>
+    </div>
+{%endblock%}

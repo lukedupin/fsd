@@ -1,0 +1,171 @@
+.contact_main_page {
+/*
+  background:url("images/FSD_Home.png"); 
+  height: 1438;
+*/
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.contact_lead_msg {
+  background:url("images/title_Home.jpg"); 
+  height: 422px;
+  top: -40px;
+  z-index: 3;
+  position: relative;
+}
+
+.contact_lead_msg_header {
+  font-family: ExoLight, verdana, helvetica, sans-serif;  
+  font-size: 74px;
+  color: #0b436b;
+  width: 600px;
+  height: 160px;
+  margin-left: 130px;
+  padding-top: 85px;
+  position: static;
+}
+
+.contact_lead_msg_text {
+  font-family: ExoExtraBold, verdana, helvetica, sans-serif;  
+  font-size: 18px;
+  color: #009996;
+  margin-top: 42px;
+  margin-left: 130px;
+  position: static;
+}
+
+.contact_lead_consultation {
+  background:url("images/btn_CTA_Consultation.png");
+  height: 48px;
+  width: 240px;
+  margin-top: 37px;
+  margin-left: 130px;
+  position: static;
+}
+
+.contact_lead_msg_shadow {
+  background:url("images/bg_Content_TopGradient.gif");
+  height: 130px;
+  width: 1200px;
+  margin-top: -40px;
+  position: static;
+}
+
+.contact_main_content_upper_left {
+  margin-left: 120px;
+  margin-top:  3px;
+  width: 500px;
+  height: 285px;
+  float: left;
+}
+
+.contact_main_content_upper_right {
+  margin-left: 60px;
+  margin-top:  3px;
+  height: 285px;
+  width: 500px;
+  float: left;
+}
+
+.contact_main_content_lower_left {
+  margin-left: 120px;
+  margin-top:  3px;
+  width: 500px;
+  height: 313px;
+  float: left;
+}
+
+.contact_main_content_lower_right {
+  margin-left: 60px;
+  margin-top:  3px;
+  width: 500px;
+  height: 313px;
+  float: left;
+}
+
+.contact_main_content_item {
+  float: left;
+}
+
+.contact_main_content_header {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 36px;
+  color: #009996;
+  margin-top: 40px;
+  margin-left: 18px;
+}
+
+.contact_main_content_text {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 14px;
+  line-height: 23px;
+  color: #0b436b;
+  width: 400px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.contact_main_content_link {
+  font-family: ExoBold, verdana, helvetica, sans-serif;  
+  margin-top: 50px;
+}
+
+.contact_main_content_link a {
+  text-decoration:none; 
+}
+
+.contact_main_content_link_text {
+  float: left;
+  color: #f5463d;
+  margin-left: 18px;
+}
+
+.contact_main_content_link_image {
+  background:url("images/btn_CTA_Arrow_Orange.png");
+  margin-top: 2px;
+  margin-left: 12px;
+  width: 7px;
+  height: 12px;
+  float: left;
+}
+
+.contact_main_upper_left_icon {
+  background:url("images/icon_Services.png");
+  height: 108px;
+  width: 70px;
+  float: left;
+}
+
+.contact_main_upper_right_icon {
+  background:url("images/icon_Ethos.png");
+  height: 108px;
+  width: 70px;
+  float: left;
+}
+
+.contact_main_lower_left_icon {
+  background:url("images/icon_Technologies.png");
+  height: 108px;
+  width: 70px;
+  float: left;
+}
+
+.contact_main_lower_right_icon {
+  background:url("images/icon_Projects.png");
+  height: 108px;
+  width: 70px;
+  float: left;
+}
+
+.contact_form p label {
+  display: inline-block;
+  vertical-align: top;
+  width: 130px;
+}
+
+.contact_form p input {
+  width: 300px;
+}

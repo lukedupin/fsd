@@ -1,0 +1,32 @@
+{% extends 'layout/base.dhtml' %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="/static/contact.css" />
+{% endblock %}
+
+{% block title %}Fluid software designs - Contact{% endblock %}
+
+{%block main_page%}contact_main_page{% endblock %}
+
+{%block contact_link%}header_nav_container_current_item{%endblock%}
+
+{%block header%}
+    <div class="contact_lead_msg"></div>
+    <div class="contact_lead_msg_shadow"></div>
+{%endblock%}
+
+{%block body%}
+<form action="/contact/" method="post">
+  <div class="contact_form">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input class="contact_submit" type="submit" value="Send message" />
+  </div>
+</form>
+{%endblock%}
+
+{% block footer %}
+    <div>
+      <div class="footer_shadow"></div>
+    </div>
+{% endblock %}

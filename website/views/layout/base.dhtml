@@ -2,12 +2,15 @@
 <meta charset="iso-8859-1">
 <HEAD>
 <link rel="stylesheet" type="text/css" href="/static/share.css" />
-<link rel="stylesheet" type="text/css" href="/static/home.css" />
 <link rel="stylesheet" type="text/css" href="/static/font/stylesheet.css" />
+{%block css%}
+{%endblock%}
 <title>{% block title %}Fluid software designs{% endblock %}</title>
 </HEAD>
 <BODY class="body">
-  <div class="home_main_page">
+  <div class="{%block main_page%}home_main_page{%endblock%}">
+
+    {% block navigration %}
     <div class="header">
       <div class="header_left">
       </div>
@@ -18,111 +21,58 @@
       <div class="header_right">
         <div class="header_nav_container">
           <div class="{%block home_link%}header_nav_container_item{%endblock%}">
-            <a href="/" style="text-decoration:none;">
+            <a href="/">
               <div class="header_nav_number">01</div>
               <div class="header_nav_text">Home</div>
             </a>
           </div>
         </div>
         <div class="header_nav_container">
-          <div class="header_nav_container_item">
-            <a href="/services" style="text-decoration:none;">
+          <div class="{%block services_link%}header_nav_container_item{%endblock%}">
+            <a href="/services">
               <div class="header_nav_number">02</div>
               <div class="header_nav_text">Services</div>
             </a>
           </div>
         </div>
         <div class="header_nav_container">
-          <div class="header_nav_container_item">
-            <div class="header_nav_number">03</div>
-            <div class="header_nav_text">Work</div>
+          <div class="{%block work_link%}header_nav_container_item{%endblock%}">
+            <a href="/work">
+              <div class="header_nav_number">03</div>
+              <div class="header_nav_text">Work</div>
+            </a>
           </div>
         </div>
         <div class="header_nav_container">
           <div class="header_nav_container_item">
-            <div class="header_nav_number">04</div>
-            <div class="header_nav_text">Ethos</div>
+            <a href="/ethos">
+              <div class="header_nav_number">04</div>
+              <div class="header_nav_text">Ethos</div>
+            </a>
           </div>
         </div>
         <div class="header_nav_container">
           <div class="header_nav_container_item">
-            <div class="header_nav_number">05</div>
-            <div class="header_nav_text">Contact</div>
+            <a href="/contact">
+              <div class="header_nav_number">05</div>
+              <div class="header_nav_text">Contact</div>
+            </a>
           </div>
         </div>
 
       </div>
     </div>
     <div style="clear: both;"></div>
+    {% endblock %}
 
-    <div class="home_lead_msg">
-      <div class="home_lead_msg_header">complex systems made simple.</div>
-      <div class="home_lead_msg_text">CUSTOMIZED, FLEXIBLE SOFTWARE FOR YOUR NEXT PROJECT.</div>
-      <div class="home_lead_consultation"></div>
-    </div>
-    <div class="home_lead_msg_shadow">
-    </div>
+    {% block header %}
+    {% endblock %}
 
-    <div class="home_main_content_upper_left">
-      <div class="home_main_upper_left_icon"></div>
-      <div class="home_main_content_item">
-        <div class="home_main_content_header">services</div>
-        <div class="home_main_content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec condimentum</div>
-        <div class="home_main_content_link">
-          <a href="/services">
-            <div class="home_main_content_link_text">VIEW OUR SERVICES</div>
-            <div class="home_main_content_link_image"></div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="home_main_content_upper_right">
-      <div class="home_main_upper_right_icon"></div>
-      <div class="home_main_content_item">
-        <div class="home_main_content_header">ethos</div>
-        <div class="home_main_content_text">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec condimentum.
+    {% block body %}
+    {% endblock %}
 
-Something that is realy neat is this?
-</div>
-        <div class="home_main_content_link">
-          <a href="/ethos">
-            <div class="home_main_content_link_text">LEARN MORE</div>
-            <div class="home_main_content_link_image"></div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div style="clear: both;"></div>
-
-    <div class="home_main_content_lower_left">
-      <div class="home_main_lower_left_icon"></div>
-      <div class="home_main_content_item">
-        <div class="home_main_content_header">technologies we support</div>
-        <div class="home_main_content_text">
-          <ul>
-            <li>one</li>
-            <li>two</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="home_main_content_lower_right">
-      <div class="home_main_lower_right_icon"></div>
-      <div class="home_main_content_item">
-        <div class="home_main_content_header">past projects</div>
-        <div class="home_main_content_text">stuff stuff stuff</div>
-        <div class="home_main_content_link">
-          <a href="/ethos"><div class="home_main_content_link_text">VIEW PAST PROJECTS</div><div class="home_main_content_link_image"></div></a>
-        </div>
-      </div>
-    </div>
-    <div style="clear: both;"></div>
-
-    <div>
-      <div class="footer_swish"></div>
-      <div class="footer_shadow"></div>
-    </div>
+    {% block footer %}
+    {% endblock %}
 
     <div class="footer_left">
       <div class="footer_logo"></div>

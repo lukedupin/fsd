@@ -89,6 +89,17 @@
   height: 150px;
 }
 
+.services_tech_icon_android {
+  background:url("images/icon_Android.png") no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.services_tech_icon_qt {
+  background:url("images/icon_Qt.png") no-repeat;
+  width: 200px;
+  height: 150px;
+}
 
 .services_tech_title {
 }

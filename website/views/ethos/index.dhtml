@@ -1,0 +1,46 @@
+{% extends 'layout/base.dhtml' %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="/static/ethos.css" />
+{% endblock %}
+
+{% block title %}Fluid software designs - Ethos{% endblock %}
+
+{%block main_page%}ethos_main_page{% endblock %}
+
+{%block ethos_link%}header_nav_container_current_item{%endblock%}
+
+{%block header%}
+    <div class="ethos_lead_msg"></div>
+    <div class="ethos_lead_msg_shadow"></div>
+{%endblock%}
+
+{%block body%}
+    <div class="ethos_main_content">
+      <div class="ethos_main_content_title">dependability, honesty & quality.</div>
+      <div class="ethos_main_content_desc">Description!</div>
+      <div class="ethos_main_content_desc">Description!</div>
+
+      <div class="ethos_main_content_charhead">Description!</div>
+      <div class="ethos_main_content_desc">Description!</div>
+      <div class="ethos_main_content_desc">Description!</div>
+    </div>
+
+    <div class="ethos_main_siderail">
+      <div class="ethos_main_siderail_image"></div>
+      <div class="ethos_main_siderail_body">
+        <div class="ethos_main_siderail_text_area">
+          <div class="ethos_main_siderail_text">text</div>
+        </div>
+        <div class="ethos_main_siderail_title">Siderail title</div>
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+{%endblock%}
+
+{% block footer %}
+    <div>
+      <div class="footer_swish"></div>
+      <div class="footer_shadow"></div>
+    </div>
+{% endblock %}

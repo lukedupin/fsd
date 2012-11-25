@@ -1,5 +1,86 @@
 {% extends 'layout/base.dhtml' %}
 
+{% block css %}
+<link rel="stylesheet" type="text/css" href="/static/home.css" />
+{% endblock %}
+
 {% block title %}Fluid software designs - Home{% endblock %}
 
+{%block main_page%}home_main_page{% endblock %}
+
 {%block home_link%}header_nav_container_current_item{%endblock%}
+
+{%block header%}
+    <div class="home_lead_msg">
+      <div class="home_lead_msg_header">complex systems made simple.</div>
+      <div class="home_lead_msg_text">CUSTOMIZED, FLEXIBLE SOFTWARE FOR YOUR NEXT PROJECT.</div>
+      <div class="home_lead_consultation"></div>
+    </div>
+    <div class="home_lead_msg_shadow">
+    </div>
+{%endblock%}
+
+{%block body%}
+    <div class="home_main_content_upper_left">
+      <div class="home_main_upper_left_icon"></div>
+      <div class="home_main_content_item">
+        <div class="home_main_content_header">services</div>
+        <div class="home_main_content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec condimentum</div>
+        <div class="home_main_content_link">
+          <a href="/services">
+            <div class="home_main_content_link_text">VIEW OUR SERVICES</div>
+            <div class="home_main_content_link_image"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="home_main_content_upper_right">
+      <div class="home_main_upper_right_icon"></div>
+      <div class="home_main_content_item">
+        <div class="home_main_content_header">ethos</div>
+        <div class="home_main_content_text">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec condimentum.
+
+Something that is realy neat is this?
+</div>
+        <div class="home_main_content_link">
+          <a href="/ethos">
+            <div class="home_main_content_link_text">LEARN MORE</div>
+            <div class="home_main_content_link_image"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+
+    <div class="home_main_content_lower_left">
+      <div class="home_main_lower_left_icon"></div>
+      <div class="home_main_content_item">
+        <div class="home_main_content_header">technologies we support</div>
+        <div class="home_main_content_text">
+          <ul>
+            <li>one</li>
+            <li>two</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="home_main_content_lower_right">
+      <div class="home_main_lower_right_icon"></div>
+      <div class="home_main_content_item">
+        <div class="home_main_content_header">past projects</div>
+        <div class="home_main_content_text">stuff stuff stuff</div>
+        <div class="home_main_content_link">
+          <a href="/ethos"><div class="home_main_content_link_text">VIEW PAST PROJECTS</div><div class="home_main_content_link_image"></div></a>
+        </div>
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+{%endblock%}
+
+{% block footer %}
+    <div>
+      <div class="footer_swish"></div>
+      <div class="footer_shadow"></div>
+    </div>
+{% endblock %}
