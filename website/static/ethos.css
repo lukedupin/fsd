@@ -34,16 +34,60 @@
 }
 
 .ethos_main_content_title {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 36px;
+  color: #009996;
   position: relative;
+  z-index: 3;
 }
 
 .ethos_main_content_desc {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 18px;
+  line-height: 23px;
+  color: #0b436b;
+  margin-top: 30px;
+  margin-bottom: 30px;
   position: relative;
+  z-index: 3;
 }
 
-.ethos_main_content_charhead {
+.ethos_main_content_charhead 
+{
+  font-family: ExoBlack, verdana, helvetica, sans-serif;  
+  font-size: 22px;
+  color: #0b436b;
   margin-top: 20px;
   position: relative;
+  z-index: 3;
+}
+
+.ethos_main_consultation_link 
+{
+  margin-top: 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.ethos_main_consultation_link a
+{
+  text-decoration:none; 
+}
+
+.ethos_main_consultation_link_text
+{
+  font-family: ExoBold, verdana, helvetica, sans-serif;  
+  font-size: 18px;
+  color: #f5463d;
+  float: left;
+}
+
+.ethos_main_consultation_link_image
+{
+  background:url("images/btn_CTA_Arrow_Orange.png");
+  margin-top: 2px;
+  margin-left: 12px;
+  width: 7px;
+  height: 12px;
+  float: left;
 }

@@ -15,7 +15,8 @@
       <div class="header_left">
       </div>
       <div class="header_angle">
-        <div class="header_logo"></div>
+        <div class="header_logo_tank"></div>
+        <div class="header_logo_notank"></div>
       </div>
 
       <div class="header_right">
@@ -35,6 +36,7 @@
             </a>
           </div>
         </div>
+<!--
         <div class="header_nav_container">
           <div class="{%block work_link%}header_nav_container_item{%endblock%}">
             <a href="/work">
@@ -43,18 +45,19 @@
             </a>
           </div>
         </div>
+-->
         <div class="header_nav_container">
-          <div class="header_nav_container_item">
+          <div class="{%block ethos_link%}header_nav_container_item{%endblock%}">
             <a href="/ethos">
-              <div class="header_nav_number">04</div>
+              <div class="header_nav_number">03</div>
               <div class="header_nav_text">Ethos</div>
             </a>
           </div>
         </div>
         <div class="header_nav_container">
-          <div class="header_nav_container_item">
+          <div class="{%block contact_link%}header_nav_container_item{%endblock%}">
             <a href="/contact">
-              <div class="header_nav_number">05</div>
+              <div class="header_nav_number">04</div>
               <div class="header_nav_text">Contact</div>
             </a>
           </div>
@@ -84,8 +87,10 @@
         <div class="footer_text_item">//</div>
         <div class="footer_text_item"><a href="/services">Services</a></div>
         <div class="footer_text_item">//</div>
+<!--
         <div class="footer_text_item"><a href="/work">Work</a></div>
         <div class="footer_text_item">//</div>
+-->
         <div class="footer_text_item"><a href="/ethos">Ethos</a></div>
         <div class="footer_text_item">//</div>
         <div class="footer_text_item"><a href="/contact">Contact</a></div>

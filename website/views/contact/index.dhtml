@@ -56,12 +56,14 @@
 
     <div class="siderail">
       <div class="siderail_image"></div>
+      <div class="siderail_shadow"></div>
       <div class="siderail_body">
         <div class="siderail_text_area">
-          <div class="siderail_text">text</div>
+          <div class="siderail_text">We'll contact you soon.  Your time is important to us.</div>
         </div>
-        <div class="siderail_title">Siderail title</div>
+        <div class="siderail_title">Thank you</div>
       </div>
+      <div class="siderail_body_shadow"></div>
     </div>
     <div style="clear: both;"></div>
 {%endblock%}

@@ -25,7 +25,9 @@
       <div class="home_main_upper_left_icon"></div>
       <div class="home_main_content_item">
         <div class="home_main_content_header">services</div>
-        <div class="home_main_content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec condimentum</div>
+        <div class="home_main_content_text">
+Fluid Software Designs focuses on taking ideas and creating products.
+        </div>
         <div class="home_main_content_link">
           <a href="/services">
             <div class="home_main_content_link_text">VIEW OUR SERVICES</div>
@@ -39,10 +41,8 @@
       <div class="home_main_content_item">
         <div class="home_main_content_header">ethos</div>
         <div class="home_main_content_text">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec condimentum.
-
-Something that is realy neat is this?
-</div>
+Trust is our number one concern.  Building fruitful relationships is a joy.  Our clients needs is our main focus.  We're happy when our clients are happy.
+        </div>
         <div class="home_main_content_link">
           <a href="/ethos">
             <div class="home_main_content_link_text">LEARN MORE</div>
@@ -59,8 +59,12 @@ Something that is realy neat is this?
         <div class="home_main_content_header">technologies we support</div>
         <div class="home_main_content_text">
           <ul>
-            <li>one</li>
-            <li>two</li>
+            <li>Linux</li>
+            <li>ARM</li>
+            <li>USB</li>
+            <li>Android</li>
+            <li>Qt</li>
+            <li>Django/Rails</li>
           </ul>
         </div>
       </div>
@@ -69,9 +73,14 @@ Something that is realy neat is this?
       <div class="home_main_lower_right_icon"></div>
       <div class="home_main_content_item">
         <div class="home_main_content_header">past projects</div>
-        <div class="home_main_content_text">stuff stuff stuff</div>
+        <div class="home_main_content_text">
+XIM Technoligies
+Provel Imager
+        </div>
         <div class="home_main_content_link">
-          <a href="/ethos"><div class="home_main_content_link_text">VIEW PAST PROJECTS</div><div class="home_main_content_link_image"></div></a>
+<!--
+          <a href="/work"><div class="home_main_content_link_text">VIEW PAST PROJECTS</div><div class="home_main_content_link_image"></div></a>
+-->
         </div>
       </div>
     </div>

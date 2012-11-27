@@ -2,6 +2,7 @@
 
 {% block css %}
 <link rel="stylesheet" type="text/css" href="/static/contact.css" />
+<meta http-equiv="refresh" content="2"> 
 {% endblock %}
 
 {% block title %}Fluid software designs - Contact{% endblock %}
@@ -16,11 +17,9 @@
 {%endblock%}
 
 {%block body%}
-{% for field in form %}
-<div class="fieldWrapper">
-    {{ field.value }}
-</div>
-{% endfor %}
+  <center>
+  <div class="contact_thank_you">Thank you for the inquiry</div>
+  </center>
 {%endblock%}
 
 {% block footer %}

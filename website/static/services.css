@@ -29,20 +29,28 @@
   background:url("images/bg_ContentHead_Swoosh.jpg");
   height: 190px;
   width: 817px;
-  margin-top: 50px;
+  margin-top: 0px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
 }
 
 .services_desc_title {
+  font-family: ExoLight, verdana, helvetica, sans-serif;  
+  font-size: 58px;
+  color: #009996;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   position: relative;
 }
 
 .services_desc_content {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 18px;
+  color: #0b436b;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -57,24 +65,26 @@
 
 .services_tech_container_left {
   width: 300px;
+  margin-top: 50px;
   float: left;
 }
 
 .services_tech_container_right {
   width: 300px;
+  margin-top: 50px;
   float: right;
 }
 
 .services_tech_icon_usb {
   background:url("images/icon_USB.jpg") no-repeat;
   width: 200px;
-  height: 150px;
+  height: 120px;
 }
 
 .services_tech_icon_ethernet {
   background:url("images/icon_Ethernet.jpg") no-repeat;
   width: 200px;
-  height: 150px;
+  height: 120px;
 }
 
 .services_tech_icon_arm {
@@ -102,13 +112,22 @@
 }
 
 .services_tech_title {
+  font-family: ExoBlack, verdana, helvetica, sans-serif;  
+  font-size: 18px;
+  color: #0b436b;
+  margin-bottom: 20px;
 }
 
 .services_tech_desc {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 16px;
+  color: #0b436b;
 }
 
 .services_hub {
   background:url("images/bg_Content_Hub.gif") no-repeat;
+  margin-left: 120px;
+  margin-top: 100px;
   width: 228px;
   height: 228px;
   position: absolute;
@@ -116,18 +135,26 @@
 
 .services_method_container {
   width: 800px;
-  margin-top: 80px;
+  margin-top: 180px;
   margin-bottom: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 280px;
+  margin-bottom: 0px;
   position: relative;
 }
 
 .services_method_title {
+  font-family: ExoLight, verdana, helvetica, sans-serif;  
+  font-size: 58px;
+  color: #009996;
   position: relative;
 }
 
 .services_method_desc {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 16px;
+  color: #0b436b;
+  margin-top: 30px;
+  margin-left: 70px;
   position: relative;
 }
 
@@ -135,5 +162,6 @@
   background:url("images/btn_CTA_Consultation.png");
   height: 48px;
   width: 240px;
+  margin-top: 60px;
   position: relative;
 }

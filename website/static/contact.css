@@ -92,3 +92,9 @@
 .contact_info_item {
   float: left;
 }
+
+.contact_thank_you {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 36px;
+  color: #009996;
+}

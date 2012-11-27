@@ -32,6 +32,46 @@
   position: relative;
 }
 
+.header_logo_tank {
+  background:url("images/Logo_TankOnly_FluidSoftwareDesigns.png");
+  width: 88px;
+  height: 111px;
+  margin-top: 30px;
+  margin-left: 20px;
+  z-index: 4;
+  position: relative;
+  float: left;
+
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+	
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+	
+	overflow:hidden;
+}
+
+.header_logo_tank:hover {
+	-webkit-transform:rotate(50deg);
+	-moz-transform:rotate(50deg); 
+	-o-transform:rotate(50deg);
+}
+
+.header_logo_notank {
+  background:url("images/Logo_NoTank_FluidSoftwareDesigns.png");
+  width: 152px;
+  height: 111px;
+  margin-top: 30px;
+  margin-left: 20px;
+  z-index: 4;
+  position: relative;
+  float: left;
+}
+
 .header_right {
   background:url("images/bg_Header_Bar.png") repeat; 
   height: 140px;
@@ -96,6 +136,15 @@
   position: relative;
 }
 
+.siderail_shadow {
+  background:url("images/bg_PictureBottomShadow.jpg");
+  margin-left: 1px;
+  width: 210px;
+  height: 21px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
 .siderail_body {
   width: 280px;
   height: 150px;
@@ -103,27 +152,48 @@
   z-index: 1;
 }
 
+.siderail_body_shadow {
+  background:url("images/bg_SideRailShadow.jpg");
+  margin-top: 2px;
+  margin-left: 1px;
+  width: 210px;
+  height: 19px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
 .siderail_title {
+  font-family: ExoDemiBold, verdana, helvetica, sans-serif;  
+  font-size: 18px;
+  color: #139d98;
+
   background:url("images/bg_RightRailContent_TitleBar.png");
-  width: 250px;
-  margin-left: -20px;
-  margin-top: -120px;
-  padding-left: 30px;
+  width: 210px;
+  margin-left: -10px;
+  margin-top: -130px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 5px;
   position: relative;
   z-index: 2;
 }
 
 .siderail_text_area {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 18px;
+  color: #0b436b;
+
   background:url("images/bg_RightRailContent_Body.png");
   margin-left; 20px;
-  width: 240px;
+  width: 210px;
   height: 150px;
   position: relative;
 }
 
 .siderail_text {
-  padding-top: 60px;
+  padding-top: 70px;
   padding-left: 10px;
+  padding-right: 10px;
   position: relative;
 }
 

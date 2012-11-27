@@ -3,6 +3,7 @@ from django.template import Context, loader
 from django.http import HttpResponse, HttpResponseRedirect
 from django import forms
 from django.shortcuts import render
+from django.core.mail import EmailMessage
 
   #My object
 class ContactForm(forms.Form):
@@ -28,4 +29,14 @@ class Contact(TemplateView):
       #If the info isn't valid, go back
     if not form.is_valid():
       return render(request, self.template_get, { 'form': form, })
+
+      #Send an email to me
+    email = EmailMessage(form.data['subject'], 
+                         "Phone: "+ form.data['phone_number'] +
+                          "\r\nEmail: "+ form.data['email_address'] +
+                          "\r\n"+ form.data['message'], 
+                         to=['lukedupin@gmail.com'])
+    email.send()
+
+      #Render a thank you
     return render(request, self.template_post, { 'form': form, })

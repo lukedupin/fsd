@@ -15,7 +15,7 @@
     <div class="services_lead_msg_shadow"></div>
     <div class="services_desc_container">
       <div class="services_desc_title">result-driven, custom software.</div>
-      <div class="services_desc_content">Something about result driven software</div>
+      <div class="services_desc_content">The only worthwhile software is a bug free product, ready to ship.</div>
     </div>
 {% endblock %}
 
@@ -24,39 +24,39 @@
       <div class="services_tech_container_left">
         <div class="services_tech_icon_usb"></div>
         <div class="services_tech_title">USB</div>
-        <div class="services_tech_desc">Usb Work</div>
+        <div class="services_tech_desc"></div>
       </div>
 
       <div class="services_tech_container_right">
         <div class="services_tech_icon_ethernet"></div>
         <div class="services_tech_title">Ethernet</div>
-        <div class="services_tech_desc">Usb Work</div>
+        <div class="services_tech_desc"></div>
       </div>
       <div style="clear: both;"></div>
 
       <div class="services_tech_container_left">
         <div class="services_tech_icon_arm"></div>
         <div class="services_tech_title">ARM</div>
-        <div class="services_tech_desc">Arm</div>
+        <div class="services_tech_desc"></div>
       </div>
 
       <div class="services_tech_container_right">
-        <div class="services_tech_icon_linux"></div>
-        <div class="services_tech_title">Linux</div>
-        <div class="services_tech_desc">Linux</div>
+        <div class="services_tech_icon_qt"></div>
+        <div class="services_tech_title">Qt</div>
+        <div class="services_tech_desc"></div>
       </div>
       <div style="clear: both;"></div>
 
       <div class="services_tech_container_left">
         <div class="services_tech_icon_android"></div>
         <div class="services_tech_title">Android</div>
-        <div class="services_tech_desc">Phones</div>
+        <div class="services_tech_desc"></div>
       </div>
 
       <div class="services_tech_container_right">
-        <div class="services_tech_icon_qt"></div>
-        <div class="services_tech_title">Qt</div>
-        <div class="services_tech_desc">Qt is great</div>
+        <div class="services_tech_icon_linux"></div>
+        <div class="services_tech_title">Linux</div>
+        <div class="services_tech_desc"></div>
       </div>
       <div style="clear: both;"></div>
     </div>
@@ -65,8 +65,8 @@
     <div class="services_method_container">
       <div class="services_method_title">our approach</div>
       <div class="services_method_desc">
-Here is our approach
-        <div class="services_method_consultation"></div>
+Remain focused on the end goal.  Keep feature sets reasonable.  Build extendable solutions that will last for years.
+        <a href="/contact"><div class="services_method_consultation"></div></a>
       </div>
     </div>
 {% endblock %}
