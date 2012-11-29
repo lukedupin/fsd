@@ -41,7 +41,7 @@ Fluid Software Designs focuses on taking ideas and creating products.
       <div class="home_main_content_item">
         <div class="home_main_content_header">ethos</div>
         <div class="home_main_content_text">
-Trust is our number one concern.  Building fruitful relationships is a joy.  Our clients needs is our main focus.  We're happy when our clients are happy.
+Gaining your trust is our number one objective. Building productive relationships with clients  is  what we do.  Your project, working bug free, is only a consultation away.
         </div>
         <div class="home_main_content_link">
           <a href="/ethos">
@@ -74,8 +74,12 @@ Trust is our number one concern.  Building fruitful relationships is a joy.  Our
       <div class="home_main_content_item">
         <div class="home_main_content_header">past projects</div>
         <div class="home_main_content_text">
-XIM Technoligies
-Provel Imager
+          <ul>
+            <li>XIM Technoligies</li>
+            <li>Provel Us</li>
+            <li>Bend Bulletin</li>
+            <li>Etrix Group</li>
+          </ul>
         </div>
         <div class="home_main_content_link">
 <!--

@@ -18,12 +18,11 @@
 {%block body%}
     <div class="ethos_main_content">
       <div class="ethos_main_content_title">dependability, honesty & quality.</div>
-      <div class="ethos_main_content_desc">I'm dependable because...</div>
-      <div class="ethos_main_content_desc">Something about honesty?</div>
+      <div class="ethos_main_content_desc">We achieve results by doing what it takes to complete the project in an appropriate time frame.  Persistence in overcoming obstacles sets us apart from the others.  We have the knowledge and skills necessary to deliver your product.  </div>
+      <div class="ethos_main_content_desc">Job effectiveness:  We achieve results by doing what it takes to complete the project in an appropriate time frame.  Persistence in overcoming obstacles sets us apart from the others.  We have the knowledge and skills necessary to deliver your product.  </div>
 
-      <div class="ethos_main_content_charhead">A really neat header</div>
-      <div class="ethos_main_content_desc">I like quality becuase its awesome</div>
-      <div class="ethos_main_content_desc">Close statement?</div>
+      <div class="ethos_main_content_charhead">Honesty</div>
+      <div class="ethos_main_content_desc">Without truth and honesty in relationships, things quickly deteriorate.  We treat all clients with utmost honesty.  We will hide or disguise nothing and we expect the same from our customers.  There is no substitute for truth and honestly, we accept nothing less.</div>
       <div class="ethos_main_consultation_link">
         <a href="/contact">
           <div class="ethos_main_consultation_link_text">CONTACT US FOR A CONSULTATION</div>

@@ -35,7 +35,7 @@ class Contact(TemplateView):
                          "Phone: "+ form.data['phone_number'] +
                           "\r\nEmail: "+ form.data['email_address'] +
                           "\r\n"+ form.data['message'], 
-                         to=['lukedupin@gmail.com'])
+                         to=['info@fsdllc.us'])
     email.send()
 
       #Render a thank you

@@ -18,7 +18,7 @@
 
 {%block body%}
   <center>
-  <div class="contact_thank_you">Thank you for the inquiry</div>
+  <div class="contact_thank_you">Thank you for your inquiry</div>
   </center>
 {%endblock%}
 
