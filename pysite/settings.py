@@ -97,6 +97,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'website.middleware.ip_logger.IpLogger',
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
@@ -162,3 +163,9 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'lukedupin.server@gmail.com'
 EMAIL_HOST_PASSWORD = 'Orby123456'
 EMAIL_PORT = 587
+
+from os.path import abspath, dirname, join
+DJANGO_ROOT = abspath(join(dirname(__file__), "../"))
+PROJECT_ROOT = abspath(dirname(__file__))
+APPPATH = '%s' % PROJECT_ROOT
+GEOIP_PATH = PROJECT_ROOT + '/geoip/'
