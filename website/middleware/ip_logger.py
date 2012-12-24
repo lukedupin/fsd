@@ -20,7 +20,7 @@ class IpLogger(object):
       #Get a location or create one
     loc = Location.objects.filter(ip_address=ip)
     if not loc:
-      loc = Location(ip_address=ip, lat=geo['latitude'], lng=geo['longitude'], city=geo['city'], region=geo['region'])
+      loc = Location(ip_address=ip, lat=str(geo['latitude']), lng=str(geo['longitude']), city=geo['city'], region=geo['region'])
     else:
       loc = loc[0]
     loc.save()
