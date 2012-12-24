@@ -6,8 +6,22 @@ class Location(models.Model):
   ip_address = models.CharField(max_length=32)
   lat = models.DecimalField(max_digits=14,decimal_places=10)
   lng = models.DecimalField(max_digits=14,decimal_places=10)
+  city = models.CharField(max_length=128)
+  region = models.CharField(max_length=128)
+
+  def __unicode__(self):
+    count = 0
+    for tracker in self.tracker_set.all():
+      count += tracker.count
+    return self.city +", "+ self.region +" ("+ str(count) +")"
 
 class Tracker(models.Model):
   id = models.AutoField(primary_key=True)
   location = models.ForeignKey(Location)
   path = models.CharField(max_length=128)
+  count = models.IntegerField()
+  created_on = models.DateTimeField(auto_now=True)
+
+  def __unicode__(self):
+    return self.path + " ("+ str(self.count) +") - "+ \
+           self.location.__unicode__()

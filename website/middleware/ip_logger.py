@@ -13,16 +13,24 @@ class IpLogger(object):
         ip = request.META.get('REMOTE_ADDR')
 
       #Get my location info
-    lat_lng = GeoIP().lon_lat(ip)
-    if not lat_lng:
-      lat_lng = [0, 0]
+    geo = GeoIP().city(ip)
+    if not geo:
+      geo = {'latitude': 0, 'longitude': 0, 'city': 'None', 'region': 'none'}
 
       #Get a location or create one
     loc = Location.objects.filter(ip_address=ip)
     if not loc:
-      loc = Location(ip_address=ip,lat=lat_lng[1], lng=lat_lng[0])
+      loc = Location(ip_address=ip, lat=geo['latitude'], lng=geo['longitude'], city=geo['city'], region=geo['region'])
     else:
       loc = loc[0]
     loc.save()
-    loc.tracker_set.add(Tracker(path=request.path))
+
+      #Get my tracker
+    track = loc.tracker_set.filter(path=request.path)
+    if not track:
+      loc.tracker_set.add( Tracker( path=request.path, count=1 ))
+    else:
+      track[0].count += 1
+      track[0].save()
+      
     return None
