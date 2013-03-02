@@ -20,6 +20,7 @@ urlpatterns = patterns('',
     url(r'^work/$', Work.as_view()),
     url(r'^ethos/$', Ethos.as_view()),
     url(r'^contact/$', Contact.as_view()),
+    url(r'^bugs/$', 'website.views.android_bug.bug'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

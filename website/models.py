@@ -25,3 +25,13 @@ class Tracker(models.Model):
   def __unicode__(self):
     return self.path + " ("+ str(self.count) +") - "+ \
            self.location.__unicode__()
+
+class AndroidBugs(models.Model):
+  id = models.AutoField(primary_key=True)
+  package_name = models.CharField(max_length=128)
+  package_version = models.CharField(max_length=128)
+  stacktrace = models.TextField(max_length=4096)
+  created_on = models.DateTimeField(auto_now=True)
+
+  def __unicode__(self):
+    return self.package_name
