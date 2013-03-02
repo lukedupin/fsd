@@ -4,6 +4,7 @@ import re
 
 class IpLogger(object):
   def process_request(self, request):
+    return None
     if re.search("admin", request.path ):
       return None
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
