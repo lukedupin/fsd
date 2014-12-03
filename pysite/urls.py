@@ -5,11 +5,11 @@ from django.contrib import admin
 admin.autodiscover()
 
 #include stuff
-from website.views import Home
-from website.views import Services
-from website.views import Work
-from website.views import Ethos
-from website.views import Contact
+from website.views.home.view import Home
+from website.views.services.view import Services
+from website.views.work.view import Work
+from website.views.ethos.view import Ethos
+from website.views.contact.view import Contact
 
 urlpatterns = patterns('',
     # Examples:
