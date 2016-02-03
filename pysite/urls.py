@@ -11,7 +11,7 @@ from website.views.work.view import Work
 from website.views.ethos.view import Ethos
 from website.views.contact.view import Contact
 
-urlpatterns = patterns('',
+urlpatterns = [
     # Examples:
     # url(r'^$', 'website.views.home.index', name='home'),
     # url(r'^$', include('website.views.home.index')),
@@ -20,11 +20,11 @@ urlpatterns = patterns('',
     url(r'^work/$', Work.as_view()),
     url(r'^ethos/$', Ethos.as_view()),
     url(r'^contact/$', Contact.as_view()),
-    url(r'^bugs/$', 'website.views.android_bug.view.bug'),
+    #url(r'^bugs/$', 'website.views.android_bug.view.bug'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
-)
+]

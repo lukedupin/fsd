@@ -9,7 +9,10 @@ class Location(models.Model):
   city = models.CharField(max_length=128)
   region = models.CharField(max_length=128)
 
-  def __unicode__(self):
+  class Meta:
+    app_label = 'website'
+
+  def __str__(self):
     count = 0
     for tracker in self.tracker_set.all():
       count += tracker.count
@@ -22,9 +25,11 @@ class Tracker(models.Model):
   count = models.IntegerField()
   created_on = models.DateTimeField(auto_now=True)
 
-  def __unicode__(self):
-    return self.path + " ("+ str(self.count) +") - "+ \
-           self.location.__unicode__()
+  class Meta:
+    app_label = 'website'
+
+  def __str__(self):
+    return self.path + " ("+ str(self.count) +") - "+ str(self.location)
 
 class AndroidBug(models.Model):
   id = models.AutoField(primary_key=True)
@@ -33,5 +38,8 @@ class AndroidBug(models.Model):
   stacktrace = models.TextField(max_length=32768)
   created_on = models.DateTimeField(auto_now=True)
 
-  def __unicode__(self):
+  class Meta:
+    app_label = 'website'
+
+  def __str__(self):
     return self.package_name +" - "+ str(self.created_on)

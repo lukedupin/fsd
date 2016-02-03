@@ -36,7 +36,7 @@ class Contact(TemplateView):
                           "\r\nEmail: "+ form.data['email_address'] +
                           "\r\n"+ form.data['message'], 
                          to=['info@fsdllc.us'])
-    email.send()
+    #email.send()
 
       #Render a thank you
     return render(request, self.template_post, { 'form': form, })

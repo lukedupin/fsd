@@ -1,5 +1,5 @@
 from website.models import Tracker,Location
-from django.contrib.gis.utils import GeoIP
+from django.contrib.gis.util import GeoIP
 import re
 
 class IpLogger(object):
