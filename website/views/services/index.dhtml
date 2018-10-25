@@ -66,7 +66,7 @@
       <div class="services_method_title">our approach</div>
       <div class="services_method_desc">
 Remain focused on the end goal.  Keep feature sets reasonable.  Build extendable solutions that will last for years.
-        <a href="/contact"><div class="services_method_consultation"></div></a>
+        <a href="/contact/"><div class="services_method_consultation"></div></a>
       </div>
     </div>
 {% endblock %}

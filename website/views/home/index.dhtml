@@ -14,7 +14,7 @@
     <div class="home_lead_msg">
       <div class="home_lead_msg_header">complex systems made simple.</div>
       <div class="home_lead_msg_text">CUSTOMIZED, FLEXIBLE SOFTWARE FOR YOUR NEXT PROJECT.</div>
-      <a href="/contact"><div class="home_lead_consultation"></div></a>
+      <a href="/contact/"><div class="home_lead_consultation"></div></a>
     </div>
     <div class="home_lead_msg_shadow">
     </div>
@@ -29,7 +29,7 @@
 Fluid Software Designs focuses on taking ideas and creating products.
         </div>
         <div class="home_main_content_link">
-          <a href="/services">
+          <a href="/services/">
             <div class="home_main_content_link_text">VIEW OUR SERVICES</div>
             <div class="home_main_content_link_image"></div>
           </a>
@@ -44,7 +44,7 @@ Fluid Software Designs focuses on taking ideas and creating products.
 Gaining your trust is our number one objective. Building productive relationships with clients  is  what we do.  Your project, working bug free, is only a consultation away.
         </div>
         <div class="home_main_content_link">
-          <a href="/ethos">
+          <a href="/ethos/"/>
             <div class="home_main_content_link_text">LEARN MORE</div>
             <div class="home_main_content_link_image"></div>
           </a>

@@ -1,5 +1,6 @@
 <HTML>
 <meta charset="iso-8859-1">
+<meta name="have-i-been-pwned-verification" value="b6209bde2e44aafb3f209b2c2ff60411">
 <HEAD>
 <link rel="stylesheet" type="text/css" href="/static/share.css" />
 <link rel="stylesheet" type="text/css" href="/static/font/stylesheet.css" />
@@ -30,7 +31,7 @@
         </div>
         <div class="header_nav_container">
           <div class="{%block services_link%}header_nav_container_item{%endblock%}">
-            <a href="/services">
+            <a href="/services/">
               <div class="header_nav_number">02</div>
               <div class="header_nav_text">Services</div>
             </a>
@@ -39,7 +40,7 @@
 <!--
         <div class="header_nav_container">
           <div class="{%block work_link%}header_nav_container_item{%endblock%}">
-            <a href="/work">
+            <a href="/work/">
               <div class="header_nav_number">03</div>
               <div class="header_nav_text">Work</div>
             </a>
@@ -48,7 +49,7 @@
 -->
         <div class="header_nav_container">
           <div class="{%block ethos_link%}header_nav_container_item{%endblock%}">
-            <a href="/ethos">
+            <a href="/ethos/">
               <div class="header_nav_number">03</div>
               <div class="header_nav_text">Ethos</div>
             </a>
@@ -56,7 +57,7 @@
         </div>
         <div class="header_nav_container">
           <div class="{%block contact_link%}header_nav_container_item{%endblock%}">
-            <a href="/contact">
+            <a href="/contact/">
               <div class="header_nav_number">04</div>
               <div class="header_nav_text">Contact</div>
             </a>
@@ -85,15 +86,15 @@
       <div class="footer_text">
         <div class="footer_text_item"><a href="/">Home</a></div>
         <div class="footer_text_item">//</div>
-        <div class="footer_text_item"><a href="/services">Services</a></div>
+        <div class="footer_text_item"><a href="/services/">Services</a></div>
         <div class="footer_text_item">//</div>
 <!--
         <div class="footer_text_item"><a href="/work">Work</a></div>
         <div class="footer_text_item">//</div>
 -->
-        <div class="footer_text_item"><a href="/ethos">Ethos</a></div>
+        <div class="footer_text_item"><a href="/ethos/">Ethos</a></div>
         <div class="footer_text_item">//</div>
-        <div class="footer_text_item"><a href="/contact">Contact</a></div>
+        <div class="footer_text_item"><a href="/contact/">Contact</a></div>
       </div>
     </div>
   </div>

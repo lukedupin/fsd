@@ -20,7 +20,7 @@ class Location(models.Model):
 
 class Tracker(models.Model):
   id = models.AutoField(primary_key=True)
-  location = models.ForeignKey(Location)
+  location = models.ForeignKey(Location, on_delete=models.CASCADE)
   path = models.CharField(max_length=128)
   count = models.IntegerField()
   created_on = models.DateTimeField(auto_now=True)
