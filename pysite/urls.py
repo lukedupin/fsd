@@ -1,4 +1,5 @@
-from django.conf.urls import include, url
+from django.conf.urls import include
+from django.urls import include, path
 
 # Uncomment the next two lines to enable the admin:
 from django.conf import settings
@@ -15,19 +16,19 @@ from website.views.contact.view import Contact
 
 urlpatterns = [
     # Examples:
-    # url(r'^$', 'website.views.home.index', name='home'),
-    # url(r'^$', include('website.views.home.index')),
-    url(r'^$', Home.as_view()),
-    url(r'^services/$', Services.as_view()),
-    url(r'^work/$', Work.as_view()),
-    url(r'^ethos/$', Ethos.as_view()),
-    url(r'^contact/$', Contact.as_view()),
-    #url(r'^bugs/$', 'website.views.android_bug.view.bug'),
+    # path(r'^$', 'website.views.home.index', name='home'),
+    # path(r'^$', include('website.views.home.index')),
+    path('', Home.as_view()),
+    path('services/', Services.as_view()),
+    path('work/', Work.as_view()),
+    path('ethos/', Ethos.as_view()),
+    path('contact/', Contact.as_view()),
+    #path('bugs/$', 'website.views.android_bug.view.bug'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+    # path(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-    #url(r'^admin/', include(admin.site.urls)),
+    #path(r'^admin/', include(admin.site.urls)),
 ]# + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 

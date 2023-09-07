@@ -17,7 +17,7 @@ import os
 import sys
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "pysite.settings")
-sys.path.append("/var/www/fsd")
+sys.path.append("/opt/fsd")
 
 # For PyMySQL
 try:
